@@ -20,6 +20,7 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -27,70 +28,13 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: BizLand - v3.2.0
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">SportsMatch<span>.</span></a></h1>
-     
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li class="dropdown"><a href="#"><span>축구</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">용병 지원/모집</a></li>
-              <li><a href="#">매칭 상대</a></li>
-              <li><a href="#">지역리그</a></li>
-              <li><a href="#">팀 검색</a></li>
-              <li><a href="#">자유 게시판</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>농구</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">용병 지원/모집</a></li>
-              <li><a href="#">매칭 상대</a></li>
-              <li><a href="#">지역리그</a></li>
-              <li><a href="#">팀 검색</a></li>
-              <li><a href="#">자유 게시판</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>야구</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">용병 지원/모집</a></li>
-              <li><a href="#">매칭 상대</a></li>
-              <li><a href="#">지역리그</a></li>
-              <li><a href="#">팀 검색</a></li>
-              <li><a href="#">자유 게시판</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>배드민턴</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">용병 지원/모집</a></li>
-              <li><a href="#">매칭 상대</a></li>
-              <li><a href="#">지역리그</a></li>
-              <li><a href="#">팀 검색</a></li>
-              <li><a href="#">자유 게시판</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">쪽지함</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Login</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  <header>
+    <?php include "header.php"?>
+</header>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
